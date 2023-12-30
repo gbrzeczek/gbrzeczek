@@ -8,7 +8,8 @@ import ContactInfoVue from './components/ContactInfo.vue'
 
 const routes = [
   { path: '/', component: AboutMeVue },
-  { path: '/contact', component: ContactInfoVue }
+  { path: '/contact', component: ContactInfoVue },
+  { path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 
 const router = VueRouter.createRouter({
