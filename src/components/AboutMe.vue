@@ -1,5 +1,5 @@
 <template>
-  <div style="margin: 50px 0">
+  <div>
     <p>
       I'm a software engineer from <span class="accent">Poland</span>. Interested mostly in backend
       technologies (with <span class="accent">.NET</span> and <span class="accent">C#</span>), but I

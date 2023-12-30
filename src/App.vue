@@ -28,6 +28,10 @@ header {
   width: 100%;
 }
 
+main {
+  padding: 30px 0;
+}
+
 footer {
   padding-top: 40px;
 }
