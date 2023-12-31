@@ -12,8 +12,12 @@ const routes = [
   { path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 
+//if is prod, base is /personal-website/
+
+const baseUrl = import.meta.env.PROD ? '/personal-website/' : '/'
+
 const router = VueRouter.createRouter({
-  history: VueRouter.createWebHistory(),
+  history: VueRouter.createWebHistory(baseUrl),
   routes
 })
 
