@@ -18,24 +18,24 @@ defineProps({
   justify-content: center;
   width: 200px;
   height: 200px;
-  background-color: #121220;
+  background-color: #090911;
   border: 1px solid white;
+  transition: background-color 0.5s ease;
 }
 
 .service-logo {
   width: 130px;
   height: 130px;
-  filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1) brightness(0.7);
+  transition: filter 0.5s ease;
 }
 
 .service-tile:hover {
   background-color: white;
   border: 1px solid #121220;
-  transition: background-color 0.5s ease;
 }
 
 .service-tile:hover .service-logo {
   filter: brightness(0) invert(0);
-  transition: filter 0.5s ease;
 }
 </style>
