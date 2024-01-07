@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import myImage from '@/assets/me.jpeg'
+</script>
+
 <template>
   <div class="navbar">
     <div class="left-wrapper">
@@ -10,7 +14,7 @@
         <router-link class="accent" to="/contact">Contact</router-link>
       </div>
     </div>
-    <img src="../assets/me.jpeg" class="me-img" alt="A photo of me, taken on an Icelandic beach" />
+    <img :src="myImage" class="me-img" alt="A photo of me, taken on an Icelandic beach" />
   </div>
 </template>
 
