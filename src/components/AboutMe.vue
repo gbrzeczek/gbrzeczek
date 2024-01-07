@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import LinkSymbol from '@/components/LinkSymbol.vue'
+</script>
+
 <template>
   <div>
     <p>
@@ -28,7 +32,7 @@
         target="_blank"
         class="accent"
         href="https://en.wikipedia.org/wiki/How_I_Unleashed_World_War_II"
-        >How I Unleashed World War II</a
+        ><LinkSymbol />How I Unleashed World War II</a
       >.
     </p>
   </div>

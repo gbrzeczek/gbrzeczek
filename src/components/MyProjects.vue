@@ -1,9 +1,13 @@
+<script setup lang="ts">
+import LinkSymbol from '@/components/LinkSymbol.vue'
+</script>
+
 <template>
   <section>
     <h2>
       Personal website -
       <a class="accent" href="https://github.com/gbrzeczek/personal-website" target="_blank"
-        >GitHub</a
+        ><LinkSymbol :icon-size="24" />GitHub</a
       >
     </h2>
     <p>
@@ -17,7 +21,7 @@
     <h2>
       Trip Planner - in progress -
       <a class="accent" href="https://github.com/gbrzeczek/travel-planner" target="_blank"
-        >GitHub</a
+        ><LinkSymbol :icon-size="24" />GitHub</a
       >
     </h2>
     <p>
@@ -46,7 +50,9 @@
   <section>
     <h2>
       Voting machine -
-      <a class="accent" href="https://youtu.be/BABlTRHFsPk" target="_blank">YouTube</a>
+      <a class="accent" href="https://youtu.be/BABlTRHFsPk" target="_blank"
+        ><LinkSymbol :icon-size="24" />YouTube</a
+      >
     </h2>
     <p>
       A university project - a prototype of a voting system based on
