@@ -5,10 +5,12 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import AboutMeVue from './components/AboutMe.vue'
 import ContactInfoVue from './components/ContactInfo.vue'
+import MyServicesVue from './components/MyServices.vue'
 
 const routes = [
   { path: '/', component: AboutMeVue },
   { path: '/contact', component: ContactInfoVue },
+  { path: '/services', component: MyServicesVue },
   { path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 

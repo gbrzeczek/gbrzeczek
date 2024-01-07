@@ -20,6 +20,7 @@ export default {
       I'm mostly available by email, but you can also use discord or any of the social media listed
       in the footer of this page. Looking forward to hearing from you!
     </p>
+    <br />
     <div class="contact-links">
       <div class="contact-item">
         <svg
