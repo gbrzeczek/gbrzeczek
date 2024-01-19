@@ -6,7 +6,7 @@ import LinkSymbol from '@/components/LinkSymbol.vue'
   <section>
     <h2>
       Personal website -
-      <a class="accent" href="https://github.com/gbrzeczek/personal-website" target="_blank"
+      <a class="accent" href="https://github.com/gbrzeczek/gbrzeczek.github.io" target="_blank"
         ><LinkSymbol :icon-size="24" />GitHub</a
       >
     </h2>

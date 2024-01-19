@@ -16,10 +16,8 @@ const routes = [
   { path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 
-const baseUrl = '/personal-website/'
-
 const router = VueRouter.createRouter({
-  history: VueRouter.createWebHistory(baseUrl),
+  history: VueRouter.createWebHistory(),
   routes
 })
 
